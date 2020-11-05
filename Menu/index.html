@@ -8,8 +8,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Menu</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Ciruela Cafe</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -19,40 +19,146 @@
                   <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Desayunos</a>
+                  <a class="nav-link" href="#Desayuno">Desayunos</a>
                 </li>
                 <li class="nav-item bg-default">
-                  <a class="nav-link" href="#">Snacks</a>
+                  <a class="nav-link" href="#Snack">Snacks</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" >Al Grill</a>
+                  <a class="nav-link" href="#AllGrill" >Al Grill</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" >Ensaladas</a>
+                  <a class="nav-link" href="#Ensalada" >Ensaladas</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" >Postres del día</a>
+                  <a class="nav-link" href="#Postre" >Postres del día</a>
                 </li>
-
+                <li class="nav-item">
+                  <a class="nav-link" href="#Bebida" >Bebidas</a>
+                </li>
               </ul>
             </div>
           </nav>
     </header>
     <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-md-6">
-          <div class="row  justify-content-between bg-danger">
-              <div class="col-md-5 bg-primary"><!--m margin p  significa padding -->
-                HOla Mundo 
+      <div class="row justify-content-center">
+        <h3 class="mt-2" id="Menu">Menu</h3>
+      </div>
+      <div class="row justify-content-betwen">
+        <div class="col-md-6" id="Desayuno">
+          <div class="row"> <!--Abarca las 12 columnas--> 
+            <div class="col-md-12">
+              <div class="card">
+                <img src="img/desayuno.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Desayunos</h5>
+                  
+                  <hr>
+                  <table class="table table-sm table-striped">
+                    <thead>
+                      <tr>
+                        <th>Item</th>
+                        <th>Precio</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Criollo</td>
+                        <td><span class="badge badge-primary">$50.00</span></td>
+                      </tr>
+                      <tr>
+                        <td>Margariteño</td>
+                        <td><span class="badge badge-primary">$50.00</span></td>
+                      </tr>
+                      <tr>
+                        <td>Americano</td>
+                        <td><span class="badge badge-primary">$45.00</span></td>
+                      </tr>
+                      <tr>
+                        <td>Tortillas de Jamon y Queso</td>
+                        <td><span class="badge badge-primary">$45.00</span></td>
+                      </tr>
+                      <tr>
+                        <td>Arepas Rellenas</td>
+                        <td>$23.00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-              <div class="col-md-5 bg-warning">
-                  Hola mundo
-              </div>
+            </div>
+
           </div>
-        </div>
-        <div class="col-md-6">
           
         </div>
+        <div class="col-md-6 mb-2" id="AllGrill">
+          <div class="card">
+            <img src="img/grill.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">All Grill</h5>
+              <hr>
+              <table>
+
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row justify-content-betwen">
+        <div class="col-md-6 mb-2" id="Snack">
+          <div class="card">
+            <img src="img/snacks.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" >Snacks</h5>
+              <hr>
+              <table>
+
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-2">
+          <div class="card" id="Ensalada">
+            <img src="img/salad.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" >Ensaladas</h5>
+              <hr>
+              <table>
+
+              </table>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row justify-content-betwen">
+        <div class="col-md-6 mb-2" id="Postre">
+          <div class="card col-md-12">
+            <img src="img/otros/postre.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" >Postres</h5>
+             <hr>
+             <table>
+
+             </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-2">
+          <div class="card" id="Bebida">
+            <img src="img/otros/bebidas.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" >Bebidas</h5>
+              <hr>
+              <table>
+
+              </table>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
